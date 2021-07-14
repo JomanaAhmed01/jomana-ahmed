@@ -5,5 +5,5 @@ export default function HeaderWrapper() {
 }
 
 export const Wrapper = styled.div`
-  background-image: url('/images/header-background.jpg');
+  
 `
