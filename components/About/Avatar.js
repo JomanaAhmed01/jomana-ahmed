@@ -8,7 +8,14 @@ export default function AboutWrapper() {
   )
 }
 
-export const Wrapper = styled.div``
+export const Wrapper = styled.div`
+  margin-top: 50px;
+  margin-left: 50px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`
 
 export const Image = styled.img`
   border-radius: 50%;
