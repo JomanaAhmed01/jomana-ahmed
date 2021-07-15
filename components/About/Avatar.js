@@ -9,7 +9,7 @@ export default function AboutWrapper() {
 }
 
 export const Wrapper = styled.div`
-  margin-top: 50px;
+  margin-top: 25px;
   margin-left: 50px;
 
   @media screen and (max-width: 768px) {
