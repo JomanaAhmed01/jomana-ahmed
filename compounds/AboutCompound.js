@@ -1,9 +1,16 @@
-import AboutWrapper from '../components/About/AboutWrapper'
+import styled from "styled-components"
+import Avatar from "../components/About/Avatar"
 
 export default function AboutCompound() {
   return (
-    <>
-      <AboutWrapper />
-    </>
+    <Wrapper>
+      <Avatar />
+    </Wrapper>
   )
 }
+
+export const Wrapper = styled.div`
+  background: #2b2b2b;
+  display: flex;
+  justify-content: space-around;
+`
