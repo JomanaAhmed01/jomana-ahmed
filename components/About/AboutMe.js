@@ -18,6 +18,7 @@ export const Title = styled.p`
   font: 22px/30px "opensans-bold", sans-serif;
   color: #fff;
   margin-bottom: 12px;
+  font-weight: bold;
 `
 
 export const Subtitle = styled.p`
