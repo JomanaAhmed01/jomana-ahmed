@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export default function Title() {
+export default function Navbar() {
   return (
     <Wrapper>
       <Title>I'm Jomana Ahmed.</Title>
