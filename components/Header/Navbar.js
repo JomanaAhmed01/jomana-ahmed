@@ -3,10 +3,10 @@ import styled from "styled-components"
 export default function Navbar() {
   return (
     <Wrapper>
-      <LinkSpecial>Home</LinkSpecial>
-      <Link>About</Link>
-      <Link>Works</Link>
-      <Link>Contact</Link>
+      <LinkSpecial>HOME</LinkSpecial>
+      <Link>ABOUT</Link>
+      <Link>WORKS</Link>
+      <Link>CONTACT</Link>
     </Wrapper>
   )
 }
@@ -23,6 +23,7 @@ export const LinkSpecial = styled.p`
   color: #f06000;
   font-weight: bold;
   cursor: pointer;
+  
 
   :hover {
     color: #ffffff;
