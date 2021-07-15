@@ -1,13 +1,13 @@
 import styled from "styled-components"
 import Avatar from "../components/About/Avatar"
-import TextWrapper from "../components/About/TextWrapper"
+import AboutMe from "../components/About/AboutMe"
 
 export default function AboutCompound() {
   return (
     <Wrapper>
       <Avatar />
 
-      <TextWrapper />
+      <AboutMe />
     </Wrapper>
   )
 }
