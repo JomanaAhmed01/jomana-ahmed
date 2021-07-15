@@ -1,8 +1,11 @@
 import styled from "styled-components"
+import CheckoutWorks from '../components/Works/CheckoutWorks'
 
 export default function WorksCompound() {
   return (
-    <Wrapper></Wrapper>
+    <Wrapper>
+      <CheckoutWorks />
+    </Wrapper>
   )
 }
 
