@@ -3,7 +3,7 @@ import styled from "styled-components"
 export default function AboutMe() {
   return (
     <Wrapper>
-      <Title>CHECKOUT SOME OF MY WORKS.</Title>
+      <Title>CHECK OUT SOME OF MY WORKS.</Title>
     </Wrapper>
   )
 }
