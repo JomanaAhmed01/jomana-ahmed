@@ -8,7 +8,10 @@ export default function CheckoutWorks() {
   )
 }
 
-export const Wrapper = styled.div``
+export const Wrapper = styled.div`
+  margin-top: 30px;
+  margin-bottom: 30px;
+`
 
 export const Title = styled.p`
   font: 18px/30px "opensans-bold", sans-serif;
