@@ -3,9 +3,9 @@ import styled from "styled-components"
 export default function MyWorks() {
   return (
     <Wrapper>
-      <ImageNetflix title="Netflix Project" src="/images/netflix-logo.jpg" />
-      <ImageCrypto title="Crypto Platform" src="/images/crypto-platform.jpg" />
-      <ImageBillie title="Billie Eilish" src="/images/billie-eilish.png" />
+      <ImageNetflix title="Netflix Project" src="/images/netflix.png" />
+      <ImageCrypto title="Crypto Platform Project" src="/images/crypto.png" />
+      <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
     </Wrapper>
   )
 }
