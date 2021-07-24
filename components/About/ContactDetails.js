@@ -7,7 +7,6 @@ export default function AboutMe() {
       <Subtitle>Jomana Ahmed</Subtitle>
       <Subtitle>123 Fake St.</Subtitle>
       <Subtitle>Cairo, Egypt</Subtitle>
-      <Subtitle>+1234567890</Subtitle>
       <Subtitle>ojy.ahmed@outlook.com</Subtitle>
     </Wrapper>
   )
