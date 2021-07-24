@@ -1,9 +1,12 @@
 import styled from "styled-components"
+import SocialLinks from '../components/Footer/SocialLinks'
 
 export default function FooterCompound() {
   return (
     <Wrapper>
-      <FooterWrapper></FooterWrapper>
+      <FooterWrapper>
+        <SocialLinks />
+      </FooterWrapper>
     </Wrapper>
   )
 }
