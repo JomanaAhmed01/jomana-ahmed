@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export default function AboutMe() {
+export default function CheckoutWorks() {
   return (
     <Wrapper>
       <Title>CHECK OUT SOME OF MY WORKS.</Title>
