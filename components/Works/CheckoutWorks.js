@@ -10,7 +10,7 @@ export default function CheckoutWorks() {
 
 export const Wrapper = styled.div`
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 `
 
 export const Title = styled.p`

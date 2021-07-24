@@ -18,7 +18,7 @@ export default function AboutCompound() {
 }
 
 export const Wrapper = styled.div`
-  background: #2b2b2b;
+  background: #111111;
   padding-top: 50px;
   padding-bottom: 50px;
 `

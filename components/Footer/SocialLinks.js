@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 50px;
   padding-bottom: 30px;
 `
 
@@ -45,7 +45,7 @@ export const LinkedInIcon = styled(Linkedin)`
   color: grey;
   width: 45px;
   height: 45px;
-  margin-right: 40px;
+  margin-right: 20px;
   cursor: pointer;
 
   :hover {

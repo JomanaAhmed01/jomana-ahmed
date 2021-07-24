@@ -5,14 +5,14 @@ export default function FooterCompound() {
   return (
     <Wrapper>
       <SocialLinks />
-      <Title>Created & Modified with love by Jomana Ahmed ♥️</Title>
+      <Title>Created & Modified with love by Jomana Ahmed <Span>♥️</Span></Title>
     </Wrapper>
   )
 }
 
 export const Wrapper = styled.div`
-  background-color: #202020;
-  border: 3px solid #202020;
+  background-color: #111111;
+  border: 3px solid #111111;
 `
 
 export const Title = styled.p`
@@ -22,4 +22,8 @@ export const Title = styled.p`
   @media screen and (max-width: 450px) {
     font-size: 13px;
   }
+`
+
+export const Span = styled.span`
+  color: red;
 `
