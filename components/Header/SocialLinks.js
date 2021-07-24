@@ -8,11 +8,9 @@ import { Github } from "@styled-icons/boxicons-logos/Github"
 export default function SocialLinks() {
   return (
     <Wrapper>
-      <FacebookIcon />
       <Link href="https://www.linkedin.com/in/jomana-ahmed/">
         <LinkedInIcon />
       </Link>
-      <InstagramIcon />
       <Link href="https://github.com/JomanaAhmed01">
         <GithubIcon />
       </Link>
