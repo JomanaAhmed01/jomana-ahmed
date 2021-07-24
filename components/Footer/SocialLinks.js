@@ -7,6 +7,7 @@ import { Github } from "@styled-icons/boxicons-logos/Github"
 
 export default function SocialLinks() {
   return (
+    <>
     <Wrapper>
       <Link href="https://www.linkedin.com/in/jomana-ahmed/">
         <LinkedInIcon />
@@ -15,6 +16,7 @@ export default function SocialLinks() {
         <GithubIcon />
       </Link>
     </Wrapper>
+    </>
   )
 }
 
@@ -22,58 +24,59 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 60px;
+  padding-bottom: 30px;
 `
 
 export const FacebookIcon = styled(Facebook)`
-  color: #ffffff;
+  color: grey;
   width: 45px;
   height: 45px;
-  margin-right: 10px;
+  margin-right: 30px;
   cursor: pointer;
 
   :hover {
-    color: #66b3ff;
+    color: #ffffff;
     transition: 0.5s;
   }
 `
 
 export const LinkedInIcon = styled(Linkedin)`
-  color: #ffffff;
+  color: grey;
   width: 45px;
   height: 45px;
-  margin-right: 20px;
+  margin-right: 40px;
   cursor: pointer;
 
   :hover {
-    color: #66b3ff;
+    color: #ffffff;
     transition: 0.5s;
   }
 `
 
 export const InstagramIcon = styled(Instagram)`
-  color: #ffffff;
+  color: grey;
   width: 30px;
   height: 30px;
   margin-top: 2px;
-  margin-right: 20px;
+  margin-right: 40px;
   cursor: pointer;
 
   :hover {
-    color: #66b3ff;
+    color: #ffffff;
     transition: 0.5s;
   }
 `
 
 export const GithubIcon = styled(Github)`
-  color: #ffffff;
+  color: grey;
   width: 45px;
   height: 45px;
   margin-left: 4px;
   cursor: pointer;
 
   :hover {
-    color: #66b3ff;
+    color: #ffffff;
     transition: 0.5s;
   }
 `

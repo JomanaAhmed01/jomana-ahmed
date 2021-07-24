@@ -12,5 +12,6 @@ export default function WorksCompound() {
 }
 
 export const Wrapper = styled.div`
-  
+  padding-top: 50px;
+  padding-bottom: 50px;
 `
