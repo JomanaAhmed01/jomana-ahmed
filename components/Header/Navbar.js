@@ -5,7 +5,7 @@ export default function Navbar() {
     <Wrapper>
       <LinkSpecial>HOME</LinkSpecial>
       <Link>ABOUT</Link>
-      <Link>WORKS</Link>
+      <Link>PROJECTS</Link>
       <Link>CONTACT</Link>
     </Wrapper>
   )

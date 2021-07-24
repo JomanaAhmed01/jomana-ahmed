@@ -3,7 +3,7 @@ import styled from "styled-components"
 export default function CheckoutWorks() {
   return (
     <Wrapper>
-      <Title>CHECK OUT SOME OF MY WORKS.</Title>
+      <Title>CHECK OUT SOME OF MY PROJECTS.</Title>
     </Wrapper>
   )
 }
