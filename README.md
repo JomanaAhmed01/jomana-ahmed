@@ -1,34 +1,204 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <br>
+  Jomana Ahmed's Profile Built Using Next.JS & Styled-Components
+</h1>
 
-## Getting Started
+<p><font size="3">
+  This is a small profile website built using <strong><em>Next.JS</em></strong> & <strong><em>Styled-Components</em></strong>, it's a basic profile website with my own design touch, showing my abilities in Next.JS & Styled-Components to build something advanced & useful. It contains the About, Projects & Social links.
+</p>
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Project Walk-Through](#project-walk-through)
+  - [Home Page](#home-page)
+  - [Sign-in Page](#sign-in-page)
+  - [Sign-up Page](#sign-up-page)
+  - [browse Page](#browse-page)
+- [Live Demo](#live-demo)
+- [Technology Used](#technology-used)
+- [How To Use](#how-to-use)
+- [Author](#author)
+- [Show Your Support](#show-your-support)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Project Walk-Through
 
-## Learn More
+ # Home Page
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center"><a name="menu"></a>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://user-images.githubusercontent.com/66492958/124337424-d2a2c680-dba2-11eb-91f1-8af86b38740d.png)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/2.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/3.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/4.jpg)
+![image](https://user-images.githubusercontent.com/66492958/124337399-b737bb80-dba2-11eb-81f1-633d77eaa1c1.png)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/6.jpg)
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The Home Page consists of 5 main sections:
 
-## Deploy on Vercel
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Sign-in button: 
+ it redirects you to the sign-in page.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Feature title & subtitle:
+It shows the main sentences of the website.
+
+***2) Optform:***
+It's a text input field and a button,  It redirects you to the browse page once you click on the button.
+
+***3) Jumbotron:***
+This section contains some images and paragraphs beside it, showing the advantages of Netflix.
+
+***4) Frequently Asked Questions:***
+This section contains the FAQs in a form of accordion, when you click anywhere in the gray area of the question the answer appears below it, and then you can close the answer by clicking again on the same gray area of the question.
+
+***5) Footer:***
+It contains useful links users may need it.
+
+
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+ # Sign-in Page
+ 
+ <div align="center"><a name="menu"></a>
+
+![image](https://user-images.githubusercontent.com/66492958/124335960-7dfc4d00-db9c-11eb-97c1-34432db654ce.png)
+![image](https://user-images.githubusercontent.com/66492958/124336037-c9aef680-db9c-11eb-93bb-22e32e37667b.png)
+</div>
+
+The Sign-in Page consists of 3 main sections:
+
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
+
+***2) Sign-in Form, which includes:***
+- Email address input field.
+
+- Password input field.
+
+- Sign-in Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for authentication. It has also an error handling function.
+
+- checkbox field.
+
+- Need help button.
+
+- Login with Facebook button.
+
+- Link to Sign-up Page:  it redirects you to the sign-up page. 
+
+***3) Footer:***
+It contains useful links users may need it.
+
+
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+
+ # Sign-up Page
+ 
+<div align="center"><a name="menu"></a>
+
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/9.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/10.jpg)
+</div>
+
+The Sign-up Page consists of 3 main sections:
+
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
+
+***2) Sign-up Form, which includes:***
+- First Name input field.
+
+- Email address input field.
+
+- Password input field.
+
+- Sign-up Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for registration. It has also an error handling function.
+
+- Link to Sign-in Page:  it redirects you to the sign-in page.
+
+
+***3) Footer:***
+It contains useful links users may need it.
+
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+ # Browse page
+ 
+<div align="center"><a name="menu"></a>
+
+![Screen Shot 2021-07-03 at 01 32 16](https://user-images.githubusercontent.com/66492958/124336513-94a3a380-db9e-11eb-8513-05d26a252149.png)
+![image](https://user-images.githubusercontent.com/66492958/124336844-05978b00-dba0-11eb-8ad5-ba7bf8e6ff83.png)
+![image](https://user-images.githubusercontent.com/66492958/124336887-4394af00-dba0-11eb-8339-3d47d9d848d3.png)
+![image](https://user-images.githubusercontent.com/66492958/124336917-5dce8d00-dba0-11eb-9c88-6cfcf8da8354.png)
+</div>
+
+The Browse Page consists of 4 main sections:
+
+***1) Header, which includes:***
+- Logo: 
+it redirects you to the home page when you click on it.
+
+- Films: 
+it redirects you to the films section when you click on it.
+
+- Series: 
+it redirects you to the series section when you click on it.
+
+***2) Films section, which includes:***
+- Films: 
+when you click on the image of the film, it shows to you film's title & description, it shows to you a button that allows you to open up the film's trailer, too.
+
+***3) Series section, which includes:***
+- Series: 
+when you click on the image of the series, it shows to you series's title & description, it shows to you a button that allows you to open up the series's trailer, too.
+
+***4) Footer:***
+It contains useful links users may need it.
+
+***### The page is fully responsive to all mobile devices even the small ones. ###***
+
+
+# Live Demo 
+
+
+# Technology Used
+
+I have built this project using the following tools & techniques:
+- Next.JS
+- Styled-Components
+- React Hooks.
+- Compound Components.
+- VSCode.
+
+# Author
+
+👤 **Jomana Ahmed**
+- Github: https://github.com/JomanaAhmed01
+- Email: ojy.ahmed@outlook.com
+- LinkedIn : https://www.linkedin.com/in/jomana-ahmed/
+
+# Show Your Support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgments
+
+Hat tip to everyone helped me to learn the techniques used in building this project.
+
+# License 
+
+MIT License.
+
+
+
