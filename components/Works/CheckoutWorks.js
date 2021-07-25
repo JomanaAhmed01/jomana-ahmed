@@ -17,7 +17,7 @@ export const Title = styled.p`
   font: 18px/30px "opensans-bold", sans-serif;
   color: #95a3a3;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
   text-align: center;
+  position: relative;
+  top: -30px;
 `
