@@ -5,7 +5,7 @@ export default function AboutMe() {
     <Wrapper>
       <Title>About Me</Title>
       <Subtitle>
-        My name is Jomana, I'm a Front-end ReactJS Developer. Currently I'm
+        My name is Jomana, I'm a Frontend Web Developer. Currently I'm
         working as an independent programmer.
       </Subtitle>
       <Title>My Coding Skills</Title>
