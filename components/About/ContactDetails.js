@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Link from "next/link"
 
 export default function AboutMe() {
   return (
@@ -7,6 +8,7 @@ export default function AboutMe() {
       <Subtitle>Jomana Ahmed</Subtitle>
       <Subtitle>Cairo, Egypt</Subtitle>
       <Subtitle>ojy.ahmed@outlook.com</Subtitle>
+      <a href="https://www.linkedin.com/in/jomana-ahmed/" target='_blank'><Subtitle>https://www.linkedin.com/in/jomana-ahmed/</Subtitle></a>
     </Wrapper>
   )
 }
