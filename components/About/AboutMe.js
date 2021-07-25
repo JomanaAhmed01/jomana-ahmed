@@ -8,6 +8,17 @@ export default function AboutMe() {
         My name is Jomana, I'm a Front-end ReactJS Developer. Currently I'm
         working as an independent programmer.
       </Subtitle>
+      <Title>My Coding Skills</Title>
+      <Subtitle>
+        React.JS | Next.JS | Styled Components | Material-UI | Ant-Design | HTML
+        | CSS | JavaScript | Node.JS | Git | Github | Github Flow | VSCode | |
+        Vercel | Github Pages | JSON | JSX | Responsive Design.
+      </Subtitle>
+      <Title>My Professional Skills</Title>
+      <Subtitle>
+        Problem Solving | Time Management | Communications Skills | Remote-Work
+        | Creativity | Attention to Details.
+      </Subtitle>
     </Wrapper>
   ) 
 }

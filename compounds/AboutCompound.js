@@ -26,7 +26,7 @@ export const Wrapper = styled.div`
 export const ItemsWrapper = styled.div`
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 `

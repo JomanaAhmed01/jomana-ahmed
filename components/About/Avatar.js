@@ -19,5 +19,9 @@ export const Wrapper = styled.div`
 
 export const Image = styled.img`
   border-radius: 50%;
-  width: 130px;
+  width: 180px;
+
+  @media screen and (max-width: 1050px) {
+    width: 160px;
+  }
 `
