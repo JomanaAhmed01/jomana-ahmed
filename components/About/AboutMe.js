@@ -5,13 +5,15 @@ export default function AboutMe() {
     <Wrapper>
       <Title>About Me</Title>
       <Subtitle>
-        My name is Jomana, I'm a Frontend Web Developer. Currently I'm
-        working as an independent programmer.
+        My name is Jomana Ahmed, I'm a skilled Frontend Web Developer and I'm always eager
+        to learn, open to change my way in thinking and implementing things,
+        open to learn new technologies, frameworks and development techniques
+        everyday!
       </Subtitle>
       <Title>My Coding Skills</Title>
       <Subtitle>
         React.JS | Next.JS | Styled Components | Material-UI | Ant-Design | HTML
-        | CSS | JavaScript | Node.JS | Git | Github | Github Flow | VSCode | |
+        | CSS | JavaScript | Node.JS | Git | Github | Github Flow | VSCode |
         Vercel | Github Pages | JSON | JSX | Responsive Design.
       </Subtitle>
       <Title>My Professional Skills</Title>
