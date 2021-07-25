@@ -23,11 +23,14 @@ export const LinkSpecial = styled.p`
   color: #f06000;
   font-weight: bold;
   cursor: pointer;
-  
 
   :hover {
     color: #ffffff;
     transition: 0.5s;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
   }
 `
 
@@ -42,5 +45,9 @@ export const Link = styled.p`
   :hover {
     color: #f06000;
     transition: 0.5s;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
   }
 `
