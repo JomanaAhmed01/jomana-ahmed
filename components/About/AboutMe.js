@@ -25,7 +25,8 @@ export default function AboutMe() {
   ) 
 }
 
-export const Wrapper = styled.div``
+export const Wrapper = styled.div`
+`
 
 export const Title = styled.p`
   font: 22px/30px "opensans-bold", sans-serif;
@@ -37,5 +38,5 @@ export const Title = styled.p`
 export const Subtitle = styled.p`
   line-height: 30px;
   color: #7a7a7a;
-  width: 80%;
+  width: 90%;
 `
