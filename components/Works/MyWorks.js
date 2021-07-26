@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
 import { Github } from "@styled-icons/boxicons-logos/Github"
-import { Earth } from "@styled-icons/ionicons-sharp/Earth"
+import { Link } from "@styled-icons/boxicons-regular/Link"
 
 export default function MyWorks() {
   return (
@@ -10,7 +10,7 @@ export default function MyWorks() {
         <ImageNetflix title="Netflix Project" src="/images/netflix.png" />
         <IconsWrapper>
           <a target="_blank" href="#">
-            <EarthIcon />
+            <LinkIcon />
           </a>
           <a
             target="_blank"
@@ -24,7 +24,7 @@ export default function MyWorks() {
         <ImageCrypto title="Crypto Platform Project" src="/images/crypto.png" />
         <IconsWrapper>
           <a target="_blank" href="#">
-            <EarthIcon />
+            <LinkIcon />
           </a>
           <a
             target="_blank"
@@ -38,7 +38,7 @@ export default function MyWorks() {
         <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
         <IconsWrapper>
           <a target="_blank" href="#">
-            <EarthIcon />
+            <LinkIcon />
           </a>
           <a
             target="_blank"
@@ -174,7 +174,7 @@ export const GithubIcon = styled(Github)`
   }
 `
 
-export const EarthIcon = styled(Earth)`
+export const LinkIcon = styled(Link)`
   color: grey;
   width: 35px;
   height: 35px;
