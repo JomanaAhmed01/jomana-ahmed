@@ -23,8 +23,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  padding-bottom: 30px;
+  margin-top: 20px;
 `
 
 export const FacebookIcon = styled(Facebook)`
