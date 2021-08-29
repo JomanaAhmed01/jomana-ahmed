@@ -9,12 +9,17 @@ export default function MyWorks() {
         <Title>Netflix NextJS Website Clone</Title>
         <ImageNetflix title="Netflix Project" src="/images/netflix.png" />
         <IconsWrapper>
-          <a target="_blank" href="https://bit.ly/nextjs-netflix-clone-live01">
+          <a
+            target="_blank"
+            href="https://bit.ly/nextjs-netflix-clone-live01"
+            rel="noreferrer"
+          >
             <LinkIcon />
           </a>
           <a
             target="_blank"
             href="https://bit.ly/nextjs-netflix-clone-github01"
+            rel="noreferrer"
           >
             <GithubIcon />
           </a>
@@ -27,10 +32,18 @@ export default function MyWorks() {
           src="/images/netflix-3.png"
         />
         <IconsWrapper>
-          <a target="_blank" href="https://bit.ly/react-netflix-clone-live01">
+          <a
+            target="_blank"
+            href="https://bit.ly/react-netflix-clone-live01"
+            rel="noreferrer"
+          >
             <LinkIcon />
           </a>
-          <a target="_blank" href="https://bit.ly/react-netflix-clone-github01">
+          <a
+            target="_blank"
+            href="https://bit.ly/react-netflix-clone-github01"
+            rel="noreferrer"
+          >
             <GithubIcon />
           </a>
         </IconsWrapper>
@@ -39,12 +52,13 @@ export default function MyWorks() {
         <Title>Crypto Platform Website</Title>
         <ImageCrypto title="Crypto Platform Project" src="/images/crypto.png" />
         <IconsWrapper>
-          <a target="_blank" href="#">
+          <a target="_blank" href="#" rel="noreferrer">
             <LinkIcon />
           </a>
           <a
             target="_blank"
             href="https://github.com/JomanaAhmed01/crypto-platform-next"
+            rel="noreferrer"
           >
             <GithubIcon />
           </a>
@@ -54,12 +68,17 @@ export default function MyWorks() {
         <Title>Billie Eilish Website Clone</Title>
         <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
         <IconsWrapper>
-          <a target="_blank" href="https://bit.ly/billie-eilish-website-live01">
+          <a
+            target="_blank"
+            href="https://bit.ly/billie-eilish-website-live01"
+            rel="noreferrer"
+          >
             <LinkIcon />
           </a>
           <a
             target="_blank"
             href="https://bit.ly/billie-eilish-website-github01"
+            rel="noreferrer"
           >
             <GithubIcon />
           </a>

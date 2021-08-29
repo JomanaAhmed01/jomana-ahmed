@@ -7,10 +7,18 @@ import { Github } from "@styled-icons/boxicons-logos/Github"
 export default function SocialLinks() {
   return (
     <Wrapper>
-      <a target="_blank" href="https://www.linkedin.com/in/jomana-ahmed/">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/jomana-ahmed/"
+        rel="noreferrer"
+      >
         <LinkedInIcon />
       </a>
-      <a target="_blank" href="https://github.com/JomanaAhmed01">
+      <a
+        target="_blank"
+        href="https://github.com/JomanaAhmed01"
+        rel="noreferrer"
+      >
         <GithubIcon />
       </a>
     </Wrapper>
