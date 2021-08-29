@@ -9,12 +9,12 @@ export default function MyWorks() {
         <Title>Netflix NextJS Website Clone</Title>
         <ImageNetflix title="Netflix Project" src="/images/netflix.png" />
         <IconsWrapper>
-          <a target="_blank" href="#">
+          <a target="_blank" href="https://bit.ly/nextjs-netflix-clone-live01">
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://github.com/JomanaAhmed01/NextJS-netflix-clone"
+            href="https://bit.ly/nextjs-netflix-clone-github01"
           >
             <GithubIcon />
           </a>
@@ -27,13 +27,10 @@ export default function MyWorks() {
           src="/images/netflix-3.png"
         />
         <IconsWrapper>
-          <a target="_blank" href="#">
+          <a target="_blank" href="https://bit.ly/react-netflix-clone-live01">
             <LinkIcon />
           </a>
-          <a
-            target="_blank"
-            href="https://github.com/JomanaAhmed01/Billie-Eilish-Website"
-          >
+          <a target="_blank" href="https://bit.ly/react-netflix-clone-github01">
             <GithubIcon />
           </a>
         </IconsWrapper>
@@ -57,12 +54,12 @@ export default function MyWorks() {
         <Title>Billie Eilish Website Clone</Title>
         <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
         <IconsWrapper>
-          <a target="_blank" href="#">
+          <a target="_blank" href="https://bit.ly/billie-eilish-website-live01">
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://github.com/JomanaAhmed01/Billie-Eilish-Website"
+            href="https://bit.ly/billie-eilish-website-github01"
           >
             <GithubIcon />
           </a>
