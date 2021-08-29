@@ -49,22 +49,6 @@ export default function MyWorks() {
         </IconsWrapper>
       </ImageWrapper>
       <ImageWrapper>
-        <Title>Crypto Platform Website</Title>
-        <ImageCrypto title="Crypto Platform Project" src="/images/crypto.png" />
-        <IconsWrapper>
-          <a target="_blank" href="#" rel="noreferrer">
-            <LinkIcon />
-          </a>
-          <a
-            target="_blank"
-            href="https://github.com/JomanaAhmed01/crypto-platform-next"
-            rel="noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </IconsWrapper>
-      </ImageWrapper>
-      <ImageWrapper>
         <Title>Billie Eilish Website Clone</Title>
         <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
         <IconsWrapper>
