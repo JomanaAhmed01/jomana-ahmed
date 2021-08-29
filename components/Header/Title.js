@@ -3,7 +3,7 @@ import styled from "styled-components"
 export default function Navbar() {
   return (
     <Wrapper>
-      <Title>I'm Jomana Ahmed.</Title>
+      <Title>I am Jomana Ahmed.</Title>
     </Wrapper>
   )
 }

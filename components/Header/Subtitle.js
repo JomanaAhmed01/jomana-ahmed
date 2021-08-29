@@ -4,7 +4,7 @@ export default function Subtitle() {
   return (
     <Wrapper>
       <SubTitle>
-        I'm a skilled <Span>Frontend Web Developer</Span> and I'm always eager to learn ,
+        I am a skilled <Span>Frontend Web Developer</Span> and I am always eager to learn ,
         open to change my way in thinking and implementing things, open to learn
         new technologies, frameworks and development techniques everyday!
       </SubTitle>
