@@ -49,8 +49,51 @@ export default function MyWorks() {
         </IconsWrapper>
       </ImageWrapper>
       <ImageWrapper>
+        <Title>Countries Dashboard Website</Title>
+        <ImageNetflix2
+          title="Countries Dashboard Project"
+          src="/images/countries-dashboard.png"
+        />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://bit.ly/countries-dashboard-live01"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://bit.ly/countries-dashboard-github01"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+      <ImageWrapper>
         <Title>Billie Eilish Website Clone</Title>
         <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://bit.ly/billie-eilish-website-live01"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://bit.ly/billie-eilish-website-github01"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+      <ImageWrapper>
+        <Title>Crypto Exchange Website</Title>
+        <ImageBillie title="Crypto Exchange Project" src="/images/crypto.png" />
         <IconsWrapper>
           <a
             target="_blank"
@@ -76,9 +119,9 @@ export const Wrapper = styled.div`
   width: 90%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
 
   @media screen and (max-width: 890px) {
     width: 80%;
