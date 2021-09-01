@@ -97,14 +97,14 @@ export default function MyWorks() {
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/billie-eilish-website-live01"
+            href="https://bit.ly/crypto-exchange-live01"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/billie-eilish-website-github01"
+            href="https://bit.ly/crypto-exchange-github01"
             rel="noreferrer"
           >
             <GithubIcon />
