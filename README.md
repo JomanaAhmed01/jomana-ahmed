@@ -72,7 +72,7 @@ it shows you all my links to contact & redirects you to them & shows to you my E
  
 <div align="center"><a name="menu"></a>
 
-![image](https://user-images.githubusercontent.com/66492958/131233900-d94339bf-fa0b-430c-9eb9-bf42ec7a9aab.png)
+![image](https://user-images.githubusercontent.com/66492958/131235211-fffa62b8-d592-434f-b650-2634f1cef8df.png)
 </div>
 
 ***3) My projects, which includes:***
