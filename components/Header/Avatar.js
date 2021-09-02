@@ -12,6 +12,10 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const Image = styled.img`
