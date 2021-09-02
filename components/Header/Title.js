@@ -10,7 +10,7 @@ export default function Navbar() {
 
 export const Wrapper = styled.div`
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 `

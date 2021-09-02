@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Navbar from "../components/Header/Navbar"
+import Avatar from '../components/Header/Avatar'
 import Title from "../components/Header/Title"
 import Subtitle from "../components/Header/Subtitle"
 import SocialLinks from "../components/Header/SocialLinks"
@@ -7,7 +7,7 @@ import SocialLinks from "../components/Header/SocialLinks"
 export default function HeaderCompound() {
   return (
     <Wrapper>
-      {/* <Navbar /> */}
+      <Avatar />
       <Title />
       <Subtitle />
       <SocialLinks />
