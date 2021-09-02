@@ -9,14 +9,14 @@ export default function SocialLinks() {
     <Wrapper>
       <a
         target="_blank"
-        href="https://www.linkedin.com/in/jomana-ahmed/"
+        href="https://bit.ly/linkedin-profile01"
         rel="noreferrer"
       >
         <LinkedInIcon />
       </a>
       <a
         target="_blank"
-        href="https://github.com/JomanaAhmed01"
+        href="https://bit.ly/github-profile01"
         rel="noreferrer"
       >
         <GithubIcon />
