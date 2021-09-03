@@ -25,4 +25,20 @@ export const Wrapper = styled.div`
   -webkit-background-size: cover !important;
   background-repeat: no-repeat;
   border: 1px solid black;
+
+  @media screen and (max-width: 905px) {
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 615px) {
+    height: 1100px;
+  }
+
+  @media screen and (max-width: 505px) {
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 470px) {
+    height: 770px;
+  }
 `

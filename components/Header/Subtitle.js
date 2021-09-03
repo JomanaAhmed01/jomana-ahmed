@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   margin-right: auto;
   width: 50%;
 
-  @media screen and (max-width: 470px) {
+  @media screen and (max-width: 505px) {
     width: 80%;
   }
 `
