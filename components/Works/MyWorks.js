@@ -25,9 +25,31 @@ export default function MyWorks() {
           </a>
         </IconsWrapper>
       </ImageWrapper>
+
       <ImageWrapper>
         <Title>Crypto Exchange Website</Title>
         <ImageBillie title="Crypto Exchange Project" src="/images/crypto.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://crypto-platform-next.vercel.app/"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/crypto-platform-next"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <Title>AI Company Website</Title>
+        <ImageBillie title="AI Company Project" src="/images/ai-company.png" />
         <IconsWrapper>
           <a
             target="_blank"
