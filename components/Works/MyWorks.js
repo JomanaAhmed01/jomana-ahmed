@@ -6,105 +6,124 @@ export default function MyWorks() {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Title>Netflix NextJS Website Clone</Title>
-        <ImageNetflix title="Netflix Project" src="/images/netflix.png" />
+        <Title>NextJS Netflix Website</Title>
+        <ImageBillie title="NextJS Netflix Project" src="/images/netflix.png" />
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/nextjs-netflix-clone-live01"
+            href="#"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/nextjs-netflix-clone-github01"
+            href="https://github.com/JomanaAhmed01/NextJS-netflix-clone"
             rel="noreferrer"
           >
             <GithubIcon />
           </a>
         </IconsWrapper>
       </ImageWrapper>
+
       <ImageWrapper>
-        <Title>Netflix React Website Clone</Title>
-        <ImageNetflix2
-          title="Netflix React Project"
-          src="/images/netflix-3.png"
-        />
+        <Title>React Netflix Website</Title>
+        <ImageBillie title="React Netflix Project" src="/images/netflix-3.png" />
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/react-netflix-clone-live01"
+            href="#"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/react-netflix-clone-github01"
+            href="https://github.com/JomanaAhmed01/React-Netflix-Project"
             rel="noreferrer"
           >
             <GithubIcon />
           </a>
         </IconsWrapper>
       </ImageWrapper>
+
       <ImageWrapper>
-        <Title>Countries Dashboard Website</Title>
-        <ImageNetflix2
-          title="Countries Dashboard Project"
-          src="/images/countries-dashboard.png"
-        />
+        <Title>Tripo Games Website</Title>
+        <ImageBillie title="Tripo Games Project" src="/images/tripo-games.png" />
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/countries-dashboard-live01"
+            href="https://tripo-games.vercel.app/"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/countries-dashboard-github01"
+            href="https://github.com/JomanaAhmed01/tripo-games"
             rel="noreferrer"
           >
             <GithubIcon />
           </a>
         </IconsWrapper>
       </ImageWrapper>
-      <ImageWrapper>
-        <Title>Billie Eilish Website Clone</Title>
-        <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
-        <IconsWrapper>
-          <a
-            target="_blank"
-            href="https://bit.ly/billie-eilish-website-live01"
-            rel="noreferrer"
-          >
-            <LinkIcon />
-          </a>
-          <a
-            target="_blank"
-            href="https://bit.ly/billie-eilish-website-github01"
-            rel="noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </IconsWrapper>
-      </ImageWrapper>
+
       <ImageWrapper>
         <Title>Crypto Exchange Website</Title>
         <ImageBillie title="Crypto Exchange Project" src="/images/crypto.png" />
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/crypto-exchange-live01"
+            href="https://crypto-platform-next.vercel.app/"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/crypto-exchange-github01"
+            href="https://github.com/JomanaAhmed01/crypto-platform-next"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <Title>AI Company Website</Title>
+        <ImageBillie title="AI Company Project" src="/images/ai-company.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://crypto-platform-next.vercel.app/"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/crypto-platform-next"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <Title>Tech Company Website</Title>
+        <ImageBillie title="Tech Company Project" src="/images/tech-company.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://tech-company-website-wheat.vercel.app/"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/tech-company-website"
             rel="noreferrer"
           >
             <GithubIcon />
