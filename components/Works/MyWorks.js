@@ -6,85 +6,19 @@ export default function MyWorks() {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Title>Netflix NextJS Website Clone</Title>
-        <ImageNetflix title="Netflix Project" src="/images/netflix.png" />
+        <Title>Tripo Games Website</Title>
+        <ImageBillie title="Tripo Games Project" src="/images/tripo-games.png" />
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/nextjs-netflix-clone-live01"
+            href="https://tripo-games.vercel.app/"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/nextjs-netflix-clone-github01"
-            rel="noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </IconsWrapper>
-      </ImageWrapper>
-      <ImageWrapper>
-        <Title>Netflix React Website Clone</Title>
-        <ImageNetflix2
-          title="Netflix React Project"
-          src="/images/netflix-3.png"
-        />
-        <IconsWrapper>
-          <a
-            target="_blank"
-            href="https://bit.ly/react-netflix-clone-live01"
-            rel="noreferrer"
-          >
-            <LinkIcon />
-          </a>
-          <a
-            target="_blank"
-            href="https://bit.ly/react-netflix-clone-github01"
-            rel="noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </IconsWrapper>
-      </ImageWrapper>
-      <ImageWrapper>
-        <Title>Countries Dashboard Website</Title>
-        <ImageNetflix2
-          title="Countries Dashboard Project"
-          src="/images/countries-dashboard.png"
-        />
-        <IconsWrapper>
-          <a
-            target="_blank"
-            href="https://bit.ly/countries-dashboard-live01"
-            rel="noreferrer"
-          >
-            <LinkIcon />
-          </a>
-          <a
-            target="_blank"
-            href="https://bit.ly/countries-dashboard-github01"
-            rel="noreferrer"
-          >
-            <GithubIcon />
-          </a>
-        </IconsWrapper>
-      </ImageWrapper>
-      <ImageWrapper>
-        <Title>Billie Eilish Website Clone</Title>
-        <ImageBillie title="Billie Eilish Project" src="/images/billie.png" />
-        <IconsWrapper>
-          <a
-            target="_blank"
-            href="https://bit.ly/billie-eilish-website-live01"
-            rel="noreferrer"
-          >
-            <LinkIcon />
-          </a>
-          <a
-            target="_blank"
-            href="https://bit.ly/billie-eilish-website-github01"
+            href="https://github.com/JomanaAhmed01/tripo-games"
             rel="noreferrer"
           >
             <GithubIcon />
