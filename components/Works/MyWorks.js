@@ -6,6 +6,48 @@ export default function MyWorks() {
   return (
     <Wrapper>
       <ImageWrapper>
+        <Title>NextJS Netflix Website</Title>
+        <ImageBillie title="NextJS Netflix Project" src="/images/netflix.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="#"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/NextJS-netflix-clone"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <Title>React Netflix Website</Title>
+        <ImageBillie title="React Netflix Project" src="/images/netflix-3.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="#"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/React-Netflix-Project"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+
+      <ImageWrapper>
         <Title>Tripo Games Website</Title>
         <ImageBillie title="Tripo Games Project" src="/images/tripo-games.png" />
         <IconsWrapper>
@@ -61,6 +103,27 @@ export default function MyWorks() {
           <a
             target="_blank"
             href="https://github.com/JomanaAhmed01/crypto-platform-next"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <Title>Tech Company Website</Title>
+        <ImageBillie title="Tech Company Project" src="/images/tech-company.png" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://tech-company-website-wheat.vercel.app/"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/tech-company-website"
             rel="noreferrer"
           >
             <GithubIcon />
