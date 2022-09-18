@@ -95,7 +95,7 @@ export default function MyWorks() {
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://crypto-platform-next.vercel.app/"
+            href="https://ai-company-website.vercel.app/"
             rel="noreferrer"
           >
             <LinkIcon />
