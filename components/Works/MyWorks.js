@@ -31,14 +31,14 @@ export default function MyWorks() {
         <IconsWrapper>
           <a
             target="_blank"
-            href="https://bit.ly/crypto-exchange-live01"
+            href="https://crypto-platform-next.vercel.app/"
             rel="noreferrer"
           >
             <LinkIcon />
           </a>
           <a
             target="_blank"
-            href="https://bit.ly/crypto-exchange-github01"
+            href="https://github.com/JomanaAhmed01/crypto-platform-next"
             rel="noreferrer"
           >
             <GithubIcon />
