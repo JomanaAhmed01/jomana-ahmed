@@ -130,6 +130,27 @@ export default function MyWorks() {
           </a>
         </IconsWrapper>
       </ImageWrapper>
+
+      <ImageWrapper>
+        <Title>Vintage Cars Website</Title>
+        <ImageBillie title="Vintage Cars Website" src="/images/vintage-cars-website.jpg" />
+        <IconsWrapper>
+          <a
+            target="_blank"
+            href="https://vintage-cars-website.vercel.app/"
+            rel="noreferrer"
+          >
+            <LinkIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/JomanaAhmed01/vintage-cars-website"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+        </IconsWrapper>
+      </ImageWrapper>
     </Wrapper>
   )
 }
