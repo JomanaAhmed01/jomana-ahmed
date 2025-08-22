@@ -22,11 +22,18 @@ export const Title = styled.p`
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
+  width: 800px;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
+    font: 70px/1.1em "opensans-bold", sans-serif;
+    font-weight: bold;
+    width: 90%;
+  }
+
+  /* @media screen and (max-width: 600px) {
     font: 80px/1.1em "opensans-bold", sans-serif;
     font-weight: bold;
-  }
+  } */
 
   @media screen and (max-width: 470px) {
     font: 60px/1.1em "opensans-bold", sans-serif;
