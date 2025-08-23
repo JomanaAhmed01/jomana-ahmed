@@ -3,7 +3,7 @@ import styled from "styled-components"
 export default function Navbar() {
   return (
     <Wrapper>
-      <Title>I am Jomana Ahmed Mohamed.</Title>
+      <Title>I am Jomana Ahmed Hussein Reyad Mohamed.</Title>
     </Wrapper>
   )
 }
@@ -27,7 +27,7 @@ export const Title = styled.p`
   @media screen and (max-width: 900px) {
     font: 70px/1.1em "opensans-bold", sans-serif;
     font-weight: bold;
-    width: 90%;
+    width: 100%;
   }
 
   /* @media screen and (max-width: 600px) {
@@ -36,7 +36,7 @@ export const Title = styled.p`
   } */
 
   @media screen and (max-width: 470px) {
-    font: 60px/1.1em "opensans-bold", sans-serif;
+    font: 50px/1.1em "opensans-bold", sans-serif;
     font-weight: bold;
   }
 `
