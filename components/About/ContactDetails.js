@@ -4,9 +4,10 @@ export default function AboutMe() {
   return (
     <Wrapper>
       <Title>Contact Details</Title>
-      <Subtitle>Jomana Ahmed</Subtitle>
+      <Subtitle>Jomana A. Mohamed</Subtitle>
       <Subtitle>Cairo, Egypt</Subtitle>
       <Subtitle>ojy.ahmed@outlook.com</Subtitle>
+      <Subtitle>+20 1015681610</Subtitle>
     </Wrapper>
   )
 }
