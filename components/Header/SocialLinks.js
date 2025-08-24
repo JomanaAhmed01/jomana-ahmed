@@ -14,13 +14,13 @@ export default function SocialLinks() {
       >
         <LinkedInIcon />
       </a> */}
-      <a
+      {/* <a
         target="_blank"
         href="https://bit.ly/github-profile01"
         rel="noreferrer"
       >
         <GithubIcon />
-      </a>
+      </a> */}
     </Wrapper>
   )
 }
@@ -36,19 +36,6 @@ export const FacebookIcon = styled(Facebook)`
   width: 45px;
   height: 45px;
   margin-right: 10px;
-  cursor: pointer;
-
-  :hover {
-    color: #66b3ff;
-    transition: 0.5s;
-  }
-`
-
-export const LinkedInIcon = styled(Linkedin)`
-  color: #ffffff;
-  width: 45px;
-  height: 45px;
-  margin-right: 20px;
   cursor: pointer;
 
   :hover {

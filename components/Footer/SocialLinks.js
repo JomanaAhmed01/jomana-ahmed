@@ -7,13 +7,13 @@ export default function SocialLinks() {
   return (
     <>
       <Wrapper>
-        <a
+        {/* <a
           target="_blank"
           href="https://bit.ly/github-profile01"
           rel="noreferrer"
         >
           <GithubIcon />
-        </a>
+        </a> */}
       </Wrapper>
     </>
   )
