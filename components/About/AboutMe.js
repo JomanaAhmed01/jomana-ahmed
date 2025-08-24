@@ -5,7 +5,7 @@ export default function AboutMe() {
     <Wrapper>
       <Title>About Me</Title>
       <Subtitle>
-        My name is Jomana Ahmed, I am a skilled Frontend Web Developer and I am always eager
+        My name is Jomana A. Mohamed, I am a skilled Frontend Web Developer and I am always eager
         to learn, open to change my way in thinking and implementing things,
         open to learn new technologies, frameworks and development techniques
         everyday!
