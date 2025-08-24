@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { Facebook } from "@styled-icons/boxicons-logos/Facebook"
-import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
 import { Instagram } from "@styled-icons/icomoon/Instagram"
 import { Github } from "@styled-icons/boxicons-logos/Github"
 
@@ -8,13 +7,6 @@ export default function SocialLinks() {
   return (
     <>
       <Wrapper>
-        <a
-          target="_blank"
-          href="https://bit.ly/linkedin-profile01"
-          rel="noreferrer"
-        >
-          <LinkedInIcon />
-        </a>
         <a
           target="_blank"
           href="https://bit.ly/github-profile01"
@@ -39,19 +31,6 @@ export const FacebookIcon = styled(Facebook)`
   width: 45px;
   height: 45px;
   margin-right: 30px;
-  cursor: pointer;
-
-  :hover {
-    color: #ffffff;
-    transition: 0.5s;
-  }
-`
-
-export const LinkedInIcon = styled(Linkedin)`
-  color: grey;
-  width: 45px;
-  height: 45px;
-  margin-right: 20px;
   cursor: pointer;
 
   :hover {

@@ -7,13 +7,6 @@ export default function AboutMe() {
       <Subtitle>Jomana Ahmed</Subtitle>
       <Subtitle>Cairo, Egypt</Subtitle>
       <Subtitle>ojy.ahmed@outlook.com</Subtitle>
-      <a
-        href="https://www.linkedin.com/in/jomana-ahmed/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <LinkSubtitle>https://www.linkedin.com/in/jomana-ahmed/</LinkSubtitle>
-      </a>
     </Wrapper>
   )
 }

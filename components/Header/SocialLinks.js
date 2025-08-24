@@ -1,19 +1,19 @@
 import styled from "styled-components"
 import { Facebook } from "@styled-icons/boxicons-logos/Facebook"
-import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
+// import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin"
 import { Instagram } from "@styled-icons/icomoon/Instagram"
 import { Github } from "@styled-icons/boxicons-logos/Github"
 
 export default function SocialLinks() {
   return (
     <Wrapper>
-      <a
+      {/* <a
         target="_blank"
         href="https://bit.ly/linkedin-profile01"
         rel="noreferrer"
       >
         <LinkedInIcon />
-      </a>
+      </a> */}
       <a
         target="_blank"
         href="https://bit.ly/github-profile01"

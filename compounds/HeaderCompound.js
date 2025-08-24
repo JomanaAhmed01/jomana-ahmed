@@ -18,7 +18,7 @@ export default function HeaderCompound() {
 export const Wrapper = styled.div`
   background-image: url("/images/header-background.jpg");
   position: relative;
-  height: 700px;
+  height: auto;
   min-height: 500px;
   width: 100%;
   background-size: cover !important;
